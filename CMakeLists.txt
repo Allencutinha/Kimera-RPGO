@@ -40,10 +40,11 @@ target_include_directories(KimeraRPGO PUBLIC
   $<INSTALL_INTERFACE:include>
 )
 
-target_link_libraries(KimeraRPGO stdc++fs
+target_link_libraries(KimeraRPGO 
   PUBLIC
     gtsam
     gtsam_unstable
+    stdc++fs
   PRIVATE
     rpgo_max_clique
 )
