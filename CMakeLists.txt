@@ -56,9 +56,9 @@ target_compile_options(KimeraRPGO
 ###########################################################################
 # Define executables
 add_executable(RpgoReadG2o examples/RpgoReadG2o.cpp)
-target_link_libraries(RpgoReadG2o KimeraRPGO)
+target_link_libraries(RpgoReadG2o KimeraRPGO stdc++fs)
 add_executable(RpgoReadG2oIncremental examples/RpgoReadG2oIncremental.cpp)
-target_link_libraries(RpgoReadG2oIncremental KimeraRPGO)
+target_link_libraries(RpgoReadG2oIncremental KimeraRPGO stdc++fs)
 add_executable(GenerateTrajectories examples/GenerateTrajectories.cpp)
 target_link_libraries(GenerateTrajectories gtsam stdc++fs)
 
