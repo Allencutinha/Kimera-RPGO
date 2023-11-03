@@ -44,9 +44,9 @@ target_link_libraries(KimeraRPGO
   PUBLIC
     gtsam
     gtsam_unstable
-    stdc++fs
   PRIVATE
     rpgo_max_clique
+    stdc++fs
 )
 
 target_compile_options(KimeraRPGO
